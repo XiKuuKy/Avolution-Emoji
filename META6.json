@@ -1,0 +1,18 @@
+{
+  "name": "Avolution::Emoji",
+  "description": "Allows simplified usage of emoji in code",
+  "license": "MIT",
+  "authors": ["XiKuuKy/choiboi"],
+  "version": "0.1.0",
+  "provides": {
+    "Avolution::Emoji": "lib/Avolution/Emoji.pm6"
+  },
+  "depends": [],
+  "build-depends": [],
+  "test-depends": [],
+  "resources": [],
+  "source-url": "git://github.com/XiKuuKy/Avolution-Emoji.git",
+  "tags": [
+    "emoji", "fun", "avolution"
+  ],
+}
