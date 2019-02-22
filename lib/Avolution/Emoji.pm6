@@ -81,6 +81,27 @@ class Emoji {
       $emojitext ~~ s:g:i/\:nomouth\:/😶/;
       $emojitext ~~ s:g:i/\:innocent\:/😇/;
       $emojitext ~~ s:g:i/\:alien\:/👽/;
+      $emojitext ~~ s:g:i/\:yellow\-heart\:/💛/;
+      $emojitext ~~ s:g:i/\:yellowheart\:/💛/;
+      $emojitext ~~ s:g:i/\:blue\-heart\:/💙/;
+      $emojitext ~~ s:g:i/\:blueheart\:/💙/;
+      $emojitext ~~ s:g:i/\:purple\-heart\:/💜/;
+      $emojitext ~~ s:g:i/\:purpleheart\:/💜/;
+      $emojitext ~~ s:g:i/\:heart\:/❤/;
+      $emojitext ~~ s:g:i/\:green\-heart\:/💚/;
+      $emojitext ~~ s:g:i/\:greenheart\:/💚/;
+      $emojitext ~~ s:g:i/\:broken\-heart\:/💔/;
+      $emojitext ~~ s:g:i/\:brokenheart\:/💔/;
+      $emojitext ~~ s:g:i/\:heartbeat\:/💓/;
+      $emojitext ~~ s:g:i/\:heartpulse\:/💗/;
+      $emojitext ~~ s:g:i/\:two\-hearts\:/💕/;
+      $emojitext ~~ s:g:i/\:twohearts\:/💕/;
+      $emojitext ~~ s:g:i/\:revolving\-hearts\:/💞/;
+      $emojitext ~~ s:g:i/\:revolvinghearts\:/💞/;
+      $emojitext ~~ s:g:i/\:cupid\:/💘/;
+      $emojitext ~~ s:g:i/\:sparkling\-heart\:/💖/;
+      $emojitext ~~ s:g:i/\:sparklingheart\:/💖/;
+      $emojitext ~~ s:g:i/\:sparkles\:/✨/;
       return $emojitext;    #TODO: add non-humans
   }
 }
