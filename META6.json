@@ -3,7 +3,7 @@
   "description": "Allows simplified usage of emoji in code",
   "license": "MIT",
   "authors": ["XiKuuKy/choiboi"],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "provides": {
     "Avolution::Emoji": "lib/Avolution/Emoji.pm6"
   },
