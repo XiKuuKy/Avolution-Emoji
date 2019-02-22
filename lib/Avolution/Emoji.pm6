@@ -3,7 +3,8 @@ unit module Avolution;
 class Emoji {
   method emoji($text) {
       my $emojitext = $text;
-      #TODO: Implement :bowtie:
+      #TODO: Implement :bowtie:/image-emojis
+      #WARNING: I only have Android emojis, if I am missing an emoji that is available in Apple, please add it.
       $emojitext ~~ s:g:i/\:smile\:/😀/;
       $emojitext ~~ s:g:i/\:stuck\-out\-tongue\:/😛/;
       $emojitext ~~ s:g:i/\:stuckouttongue\:/😛/;
@@ -102,6 +103,94 @@ class Emoji {
       $emojitext ~~ s:g:i/\:sparkling\-heart\:/💖/;
       $emojitext ~~ s:g:i/\:sparklingheart\:/💖/;
       $emojitext ~~ s:g:i/\:sparkles\:/✨/;
+      $emojitext ~~ s:g:i/\:star\:/⭐/;
+      $emojitext ~~ s:g:i/\:star2\:/🌟/;
+      $emojitext ~~ s:g:i/\:dizzy\:/💫/;
+      $emojitext ~~ s:g:i/\:boom\:/💥/;
+      $emojitext ~~ s:g:i/\:collision\:/💥/;
+      $emojitext ~~ s:g:i/\:anger\:/💢/;
+      $emojitext ~~ s:g:i/\:exclamation\:/❗/;
+      $emojitext ~~ s:g:i/\:grey\-exclamation\:/❕/;
+      $emojitext ~~ s:g:i/\:greyexclamation\:/❕/;
+      $emojitext ~~ s:g:i/\:gray\-exclamation\:/❕/;
+      $emojitext ~~ s:g:i/\:grayexclamation\:/❕/;
+      $emojitext ~~ s:g:i/\:question\:/❓/;
+      $emojitext ~~ s:g:i/\:grey\-question\:/❔/;
+      $emojitext ~~ s:g:i/\:greyquestion\:/❔/;
+      $emojitext ~~ s:g:i/\:gray\-question\:/❔/;
+      $emojitext ~~ s:g:i/\:grayquestion\:/❔/;
+      $emojitext ~~ s:g:i/\:zzz\:/💤/;
+      $emojitext ~~ s:g:i/\:dash\:/💨/;
+      $emojitext ~~ s:g:i/\:sweat\-drops\:/💦/;
+      $emojitext ~~ s:g:i/\:sweatdrops\:/💦/;
+      $emojitext ~~ s:g:i/\:notes\:/🎶/;
+      $emojitext ~~ s:g:i/\:musical\-note\:/🎵/;
+      $emojitext ~~ s:g:i/\:musicalnote\:/🎵/;
+      $emojitext ~~ s:g:i/\:fire\:/🔥/;
+      $emojitext ~~ s:g:i/\:poop\:/💩/;
+      $emojitext ~~ s:g:i/\:hankey\:/💩/;
+      $emojitext ~~ s:g:i/\:shit\:/💩/;
+      $emojitext ~~ s:g:i/\:+1\:/👍/;
+      $emojitext ~~ s:g:i/\:thumbsup\:/👍/;
+      $emojitext ~~ s:g:i/\:\-1\:/👎/;
+      $emojitext ~~ s:g:i/\:thumbsdown\:/👎/;
+      $emojitext ~~ s:g:i/\:ok\-hand\:/👌/;
+      $emojitext ~~ s:g:i/\:okhand\:/👌/;
+      $emojitext ~~ s:g:i/\:punch\:/👊/;
+      $emojitext ~~ s:g:i/\:facepunch\:/👊/;
+      $emojitext ~~ s:g:i/\:fist\:/👊/; # approximation TODO: find out if there is an apple emoji that fits this.
+      $emojitext ~~ s:g:i/\:v\:/✌/;
+      $emojitext ~~ s:g:i/\:wave\:/👋/;
+      $emojitext ~~ s:g:i/\:hand\:/✋/;
+      $emojitext ~~ s:g:i/\:raised\-hand\:/✋/;
+      $emojitext ~~ s:g:i/\:raisedhand\:/✋/;
+      $emojitext ~~ s:g:i/\:open\-hands\:/👐/;
+      $emojitext ~~ s:g:i/\:openhands\:/👐/;
+      $emojitext ~~ s:g:i/\:point\-up\:/👆/;
+      $emojitext ~~ s:g:i/\:pointup\:/👆/;
+      $emojitext ~~ s:g:i/\:point\-down\:/👇/;
+      $emojitext ~~ s:g:i/\:pointdown\:/👇/;
+      $emojitext ~~ s:g:i/\:point\-left\:/👈/;
+      $emojitext ~~ s:g:i/\:pointleft\:/👈/;
+      $emojitext ~~ s:g:i/\:point\-right\:/👉/;
+      $emojitext ~~ s:g:i/\:pointright\:/👉/;
+      $emojitext ~~ s:g:i/\:raised\-hands\:/🙌/;
+      $emojitext ~~ s:g:i/\:raisedhands\:/🙌/;
+      $emojitext ~~ s:g:i/\:pray\:/🙏/;
+      $emojitext ~~ s:g:i/\:point\-up\-2\:/☝/;
+      $emojitext ~~ s:g:i/\:pointup2\:/☝/;
+      $emojitext ~~ s:g:i/\:clap\:/👏/;
+      $emojitext ~~ s:g:i/\:muscle\:/💪/;
+      $emojitext ~~ s:g:i/\:fu\:/🖕/;
+      $emojitext ~~ s:g:i/\:runner\:/🏃/;
+      $emojitext ~~ s:g:i/\:couple\:/👫/;
+      $emojitext ~~ s:g:i/\:family\:/👪/;
+      $emojitext ~~ s:g:i/\:two\-men\-holding\-hands\:/👬/;
+      $emojitext ~~ s:g:i/\:twomenholdinghands\:/👬/;
+      $emojitext ~~ s:g:i/\:two\-women\-holding\-hands\:/👭/;
+      $emojitext ~~ s:g:i/\:twowomenholdinghands\:/👭/;
+      $emojitext ~~ s:g:i/\:dancer\:/💃/;
+      $emojitext ~~ s:g:i/\:dancers\:/👯/;
+      $emojitext ~~ s:g:i/\:ok\-woman\:/🙆/;
+      $emojitext ~~ s:g:i/\:okwoman\:/🙆/;
+      $emojitext ~~ s:g:i/\:no\-good\:/🙅/;
+      $emojitext ~~ s:g:i/\:nogood\:/🙅/;
+      $emojitext ~~ s:g:i/\:information\-desk\-person\:/💁/;
+      $emojitext ~~ s:g:i/\:informationdeskperson\:/💁/;
+      $emojitext ~~ s:g:i/\:raising\-hand\:/🙋/;
+      $emojitext ~~ s:g:i/\:raisinghand\:/🙋/;
+      $emojitext ~~ s:g:i/\:bride\-with\-veil\:/👰/;
+      $emojitext ~~ s:g:i/\:bridewithveil\:/👰/;
+      $emojitext ~~ s:g:i/\:person\-pouting\-face\:/🙎/;
+      $emojitext ~~ s:g:i/\:personpoutingface\:/🙎/;
+      $emojitext ~~ s:g:i/\:person\-frowning\:/🙍/;
+      $emojitext ~~ s:g:i/\:personfrowning\:/🙍/;
+      $emojitext ~~ s:g:i/\:bow\:/🙇/;
+      $emojitext ~~ s:g:i/\:couplekiss\:/💏/;
+      $emojitext ~~ s:g:i/\:couple\-with\-heart\:/💑/;
+      $emojitext ~~ s:g:i/\:couplewithheart\:/💑/;
+      $emojitext ~~ s:g:i/\:massage\:/💆/;
+      $emojitext ~~ s:g:i/\:haircut\:/💇/;
       return $emojitext;    #TODO: add non-humans
   }
 }

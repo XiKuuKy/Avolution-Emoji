@@ -14,3 +14,4 @@ TODO
  - Write tests (`t/basic.t` or whatever)
  - Add more functionality like reverse replace or whatever
  - Implement `:bowtie:` using images
+ - allow different colored faces and hands for other skin tones than the default
