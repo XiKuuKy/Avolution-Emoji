@@ -5,6 +5,7 @@ class Emoji {
       my $emojitext = $text;
       #TODO: Implement :bowtie:/image-emojis
       #WARNING: I only have Android emojis, if I am missing an emoji that is available in Apple, please add it.
+      #begin faces
       $emojitext ~~ s:g:i/\:smile\:/😀/;
       $emojitext ~~ s:g:i/\:stuck\-out\-tongue\:/😛/;
       $emojitext ~~ s:g:i/\:stuckouttongue\:/😛/;
@@ -191,6 +192,72 @@ class Emoji {
       $emojitext ~~ s:g:i/\:couplewithheart\:/💑/;
       $emojitext ~~ s:g:i/\:massage\:/💆/;
       $emojitext ~~ s:g:i/\:haircut\:/💇/;
+      $emojitext ~~ s:g:i/\:nail\-care\:/💅/;
+      $emojitext ~~ s:g:i/\:nailcare\:/💅/;
+      $emojitext ~~ s:g:i/\:boy\:/👦/;
+      $emojitext ~~ s:g:i/\:girl\:/👧/;
+      $emojitext ~~ s:g:i/\:woman\:/👩/;
+      $emojitext ~~ s:g:i/\:man\:/👨/;
+      $emojitext ~~ s:g:i/\:baby\:/👶/;
+      $emojitext ~~ s:g:i/\:older\-woman\:/👵/;
+      $emojitext ~~ s:g:i/\:olderwoman\:/👵/;
+      $emojitext ~~ s:g:i/\:older\-man\:/👴/;
+      $emojitext ~~ s:g:i/\:olderman\:/👴/;
+      $emojitext ~~ s:g:i/\:person\-with\-blonde\-hair\:/👱/;
+      $emojitext ~~ s:g:i/\:personwithblondehair\:/👱/;
+      $emojitext ~~ s:g:i/\:person\-with\-gua\-pi\-mao\:/👲/;
+      $emojitext ~~ s:g:i/\:personwithguapimao\:/👲/;
+      $emojitext ~~ s:g:i/\:person\-with\-turban\:/👳/;
+      $emojitext ~~ s:g:i/\:personwithturban\:/👳/;
+      $emojitext ~~ s:g:i/\:construction\-worker\:/👷/;
+      $emojitext ~~ s:g:i/\:constructionworker\:/👷/;
+      $emojitext ~~ s:g:i/\:cop\:/👮/;
+      $emojitext ~~ s:g:i/\:angel\:/👼/;
+      $emojitext ~~ s:g:i/\:princess\:/👸/;
+      $emojitext ~~ s:g:i/\:smiley\-cat\:/😺/;
+      $emojitext ~~ s:g:i/\:smileycat\:/😺/;
+      $emojitext ~~ s:g:i/\:smile\-cat\:/😺/;
+      $emojitext ~~ s:g:i/\:smilecat\:/😺/;
+      $emojitext ~~ s:g:i/\:heart\-eyes\-cat\:/😻/;
+      $emojitext ~~ s:g:i/\:hearteyescat\:/😻/;
+      $emojitext ~~ s:g:i/\:kissing\-cat\:/😺/;
+      $emojitext ~~ s:g:i/\:kissingcat\:/😺/;
+      $emojitext ~~ s:g:i/\:smirk\-cat\:/😼/;
+      $emojitext ~~ s:g:i/\:smirkcat\:/😼/;
+      $emojitext ~~ s:g:i/\:scream\-cat\:/🙀/;
+      $emojitext ~~ s:g:i/\:screamcat\:/🙀/;
+      $emojitext ~~ s:g:i/\:crying\-cat\-face\:/😿/;
+      $emojitext ~~ s:g:i/\:cryingcatface\:/😿/;
+      $emojitext ~~ s:g:i/\:joy\-cat\:/😹/;
+      $emojitext ~~ s:g:i/\:joycat\:/😹/;
+      $emojitext ~~ s:g:i/\:pouting\-cat\:/😾/;
+      $emojitext ~~ s:g:i/\:poutingcat\:/😾/;
+      $emojitext ~~ s:g:i/\:japanese\-ogre\:/👹/;
+      $emojitext ~~ s:g:i/\:japaneseogre\:/👹/;
+      $emojitext ~~ s:g:i/\:japanese\-goblin\:/👺/;
+      $emojitext ~~ s:g:i/\:japanesegoblin\:/👺/;
+      $emojitext ~~ s:g:i/\:see\-no\-evil\:/🙈/;
+      $emojitext ~~ s:g:i/\:seenoevil\:/🙈/;
+      $emojitext ~~ s:g:i/\:hear\-no\-evil\:/🙈/;
+      $emojitext ~~ s:g:i/\:hearnoevil\:/🙈/;
+      $emojitext ~~ s:g:i/\:speak\-no\-evil\:/🙈/;
+      $emojitext ~~ s:g:i/\:speaknoevil\:/🙈/;
+      $emojitext ~~ s:g:i/\:guardsmen\:/💂/;
+      $emojitext ~~ s:g:i/\:skull\:/💀/;
+      $emojitext ~~ s:g:i/\:feet\:/👣/;
+      $emojitext ~~ s:g:i/\:lips\:/👄/;
+      $emojitext ~~ s:g:i/\:droplet\:/💧/;
+      $emojitext ~~ s:g:i/\:ear\:/👂/;
+      $emojitext ~~ s:g:i/\:eyes\:/👀/;
+      $emojitext ~~ s:g:i/\:nose\:/👃/;
+      $emojitext ~~ s:g:i/\:tongue\:/👅/;
+      $emojitext ~~ s:g:i/\:love\-letter\:/💌/;
+      $emojitext ~~ s:g:i/\:loveletter\:/💌/;
+      $emojitext ~~ s:g:i/\:bust\-in\-silhouette\:/👤/;
+      $emojitext ~~ s:g:i/\:bustinsilhouette\:/👤/;
+      $emojitext ~~ s:g:i/\:thought/-balloon\:/💭/;
+      $emojitext ~~ s:g:i/\:speech\-balloon\:/💬/;
+      #TODO: finish nature category
       return $emojitext;    #TODO: add non-humans
   }
 }
