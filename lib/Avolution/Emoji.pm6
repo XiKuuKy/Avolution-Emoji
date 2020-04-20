@@ -255,7 +255,7 @@ class Emoji {
       $emojitext ~~ s:g:i/\:loveletter\:/💌/;
       $emojitext ~~ s:g:i/\:bust\-in\-silhouette\:/👤/;
       $emojitext ~~ s:g:i/\:bustinsilhouette\:/👤/;
-      $emojitext ~~ s:g:i/\:thought/-balloon\:/💭/;
+      $emojitext ~~ s:g:i/\:thought\-balloon\:/💭/;
       $emojitext ~~ s:g:i/\:speech\-balloon\:/💬/;
       #TODO: finish nature category
       return $emojitext;    #TODO: add non-humans
